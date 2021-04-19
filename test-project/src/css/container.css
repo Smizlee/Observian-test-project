@@ -12,19 +12,6 @@ body {
     background: linear-gradient(197.11deg, #FF1919 0%, #D8D7D7 50.6%, #DDA3A3 100%);
 }
 
-.rectangle:before {
-    content: '';
-    width: 50%;
-    height: 40%;
-    position: absolute;
-    background: #DDA3A3;
-    z-index: -1;
-    bottom: 0%;
-    transform-origin: right bottom;
-    transform: skewY(27deg);
-}
-
-
 
 .rectangle:after {
     content: '';
@@ -38,3 +25,15 @@ body {
     transform: skewY(-6deg);
 }
 
+.rectangle:before {
+    content: '';
+    width: 100%;
+    float: left;
+    height: 100%;
+    position: absolute;
+    background: #DDA3A3;
+    z-index: -1;
+    bottom: -120%;
+    transform-origin: right bottom;
+    transform: skewY(24deg);
+}
