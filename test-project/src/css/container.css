@@ -1,6 +1,8 @@
 body {
     margin:0px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .rectangle {
@@ -8,8 +10,19 @@ body {
     width: 100vw;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     z-index: 1;
     background: linear-gradient(197.11deg, #FF1919 0%, #D8D7D7 50.6%, #DDA3A3 100%);
+}
+
+.rectangle > * {
+    padding: 20px;
+}
+
+.main {
+    flex-grow: 1;
 }
 
 
