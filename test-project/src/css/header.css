@@ -1,48 +1,50 @@
-.headerContainer{
-    position:fixed;
-    display: block;
-    width: 80vw;
-    height:450px;
-    margin-top:600px;
-    max-width: 1500px;
+.headerContainer {
+  display: block;
+  width: 80vw;
+  background-color: green;
+  display: block;
+  height: 450px;
+  margin-top: 3%;
+  max-width: 1500px;
 }
 
 .headerTitleText {
-    color: rgba(255,255,255,0.9);
-    font-family: "Arial Black";
-    font-size: 3vw;
-    letter-spacing: 0;
-    line-height: 141px;
-    position: absolute;
-    z-index: -1;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Arial Black";
+  font-size: 3vw;
+  letter-spacing: 0;
+  line-height: 141px;
+  position: absolute;
+  z-index: -1;
 }
 
-.underline{
-    box-sizing: border-box;
-    height: 1px;
-    width: 47px;
-    margin-left: 10px;
-    position: absolute;
-    bottom: 0;
-    border: 5px solid #000000; 
+.underline {
+  box-sizing: border-box;
+  height: 1px;
+  width: 47px;
+  margin-left: 10px;
+  position: absolute;
+  bottom: 0;
+  border: 5px solid #000000;
 }
 
 .titleContainer {
-    width: 75vw;
-    height: 10vh;
-    padding-left: 75px;
-    margin-top: -15vh;
-    position: absolute;
+  width: 75vw;
+  height: 10vh;
+  padding-left: 75px;
+  margin-top: -15vh;
+  position: absolute;
 }
 
 .bodyContainer {
-    width: 60vw;
-    margin-left: 75px;
-    margin-top: -200px;
+  width: 60vw;
+  background-color: greenyellow;
+  margin-left: 75px;
+  margin-top: -200px;
 }
 
 .bodyText {
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
   font-family: Helvetica;
   font-size: 18px;
   letter-spacing: 0;
@@ -50,6 +52,6 @@
 }
 
 .blackLineImage {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 }
