@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="263px" viewBox="0 0 158 263" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>16A1B135-F92B-43C1-A053-5EE59F25B873</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-23.9%" y="-14.0%" width="147.8%" height="128.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-37.000000, -58.000000)" fill="#530000">
+            <g id="SVGDarkRed" transform="translate(53.197571, 80.110449)">
+                <polygon id="Path-2" points="128.439026 7 27.4597168 48.9658452 3 220.919947 8.56704712 22.6551762"></polygon>
+                <polygon id="Path-2-Copy" filter="url(#filter-1)" transform="translate(75.719513, 113.959973) rotate(-7.000000) translate(-75.719513, -113.959973) " points="138.439026 7 37.4597168 48.9658452 13 220.919947 18.5670471 22.6551762"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

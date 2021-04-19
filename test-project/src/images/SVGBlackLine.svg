@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="356px" height="427px" viewBox="0 0 356 427" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>70869C2F-AB46-459A-95A1-47578559BF5A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-8.8%" y="-7.6%" width="117.5%" height="115.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-999.000000, -117.000000)" fill="#000000">
+            <g id="SVGBlackLine" transform="translate(973.342896, 117.000000)">
+                <polygon id="Path-Copy" filter="url(#filter-1)" transform="translate(197.174744, 220.662384) rotate(8.000000) translate(-197.174744, -220.662384) " points="26 67.9921875 198.451782 52.019104 342.353394 284.5 184.176697 419.324768 368.349487 271.914612 198.451782 22"></polygon>
+                <polygon id="Path" points="26 67.9921875 198.451782 52.019104 342.353394 284.5 184.176697 419.324768 368.349487 271.914612 198.451782 22"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

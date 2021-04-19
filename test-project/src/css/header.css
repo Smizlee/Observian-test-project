@@ -1,0 +1,53 @@
+.headerContainer{
+    min-width: 250px;
+    width: 1500px;
+    height:55vh;
+    margin-top: 3%;
+}
+
+.headerTitleText {
+    color: rgba(255,255,255,0.9);
+    font-family: "Arial Black";
+    font-size: 100px;
+    letter-spacing: 0;
+    line-height: 141px;
+    position: absolute;
+    z-index: -1;
+}
+
+.underline{
+    box-sizing: border-box;
+    height: 1px;
+    width: 47px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 0;
+    border: 5px solid #000000; 
+}
+
+.titleContainer {
+    width: 75vw;
+    height: 10vh;
+    padding-left: 75px;
+    margin-top: -15vh;
+    position: absolute;
+}
+
+.bodyContainer {
+    height:25vh;
+    margin-top: -200px;
+    position: relative;
+    display: flex;
+}
+.bodyText {
+  color: rgba(255,255,255,0.9);
+  font-family: Helvetica;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.blackLineImage {
+    position: absolute;
+    right: 0;
+}
