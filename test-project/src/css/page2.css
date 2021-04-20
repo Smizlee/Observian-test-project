@@ -20,11 +20,9 @@ body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  position: relative;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   min-height: 100vh;
-  z-index: 1;
   background: linear-gradient(
     197.11deg,
     #ff1919 0%,
@@ -33,12 +31,16 @@ body {
   );
 }
 
-.rectangle > * {
-  padding: 10px;
+.pageText {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Arial Black";
+  letter-spacing: 0;
+  font-size: 3vw;
+  position: relative;
 }
 
-.main {
-  flex-grow: 1;
+.rectangle > * {
+  padding: 10px;
 }
 
 .rectangle:after {

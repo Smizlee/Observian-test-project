@@ -1,25 +1,20 @@
-.footer  {
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100vw;
-    height: 20vh;
-    background-color: #000000;
-    
-}
-
-.footer:after{
-    content:'';
-    position: absolute;
-    bottom: 100%;
-    border-bottom: solid 5vh black;
-    border-left: solid 55vw transparent;
-    border-right: solid 50vw transparent;
+.footer {
+  height: 10vh;
+  line-height: 10vh;
+  background-color: #000000;
+  clip-path: polygon(57% 0%, 100% 48%, 100% 100%, 0 100%, 0% 38%);
+  text-align: center;
 }
 
 .footerText {
-    font-size: 18px;
-    color: rgba(255,255,255,0.7);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    position: relative;
+  }
 }
