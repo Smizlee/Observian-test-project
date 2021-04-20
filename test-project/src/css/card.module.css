@@ -1,0 +1,31 @@
+.wrapperDropshadow {
+  filter: drop-shadow(10px 30px 90px rgba(0, 0, 0, 0.5));
+}
+
+.card {
+  height: 303px;
+  width: 75vw;
+  border-radius: 6px;
+  max-width: 1186px;
+  background-color: #ffffff;
+  clip-path: polygon(55% 0, 100% 0, 100% 100%, 61% 85%, 0 100%, 0 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardText {
+  width: 90%;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Helvetica;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+  .cardText {
+    font-size: 2vw;
+  }
+}

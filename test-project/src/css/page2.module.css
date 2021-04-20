@@ -1,0 +1,40 @@
+.rectangle {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  min-height: 100vh;
+  background: linear-gradient(
+    197.11deg,
+    #ff1919 0%,
+    #d8d7d7 50.6%,
+    #dda3a3 100%
+  );
+}
+
+.pageText {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Arial Black";
+  letter-spacing: 0;
+  font-size: 3vw;
+  position: relative;
+}
+
+.rectangle > * {
+  padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .rectangle {
+    overflow-y: auto;
+  }
+
+  .rectangle:after {
+    width: 0%;
+    height: 0%;
+  }
+
+  .rectangle:before {
+    width: 0%;
+    height: 0%;
+  }
+}

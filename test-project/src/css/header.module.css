@@ -1,12 +1,12 @@
-.page-header nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+.pageHeader nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
-.cta-home {
+.ctahome {
   opacity: 0.67;
-  color: rgba(0,0,0,0.7);
+  color: rgba(0, 0, 0, 0.7);
   font-family: Helvetica;
   font-size: 18px;
   font-weight: bold;
@@ -16,9 +16,9 @@
   text-decoration: transparent;
 }
 
-.cta-page2 {
+.ctapage2 {
   opacity: 0.67;
-  color: rgba(0,0,0,0.7);
+  color: rgba(0, 0, 0, 0.7);
   font-family: Helvetica;
   font-size: 18px;
   font-weight: bold;
@@ -29,13 +29,13 @@
   padding-left: 10px;
 }
 
-  @media screen and (min-width: 550px) {
-    .page-header ul {
-      width: auto;
-      margin-top: 0;
-    }
-   
-    .page-header .cta-home .cta-page2 {
-      order: 1;
-    }
+@media screen and (min-width: 550px) {
+  .pageHeader ul {
+    width: auto;
+    margin-top: 0;
   }
+
+  .pageHeader .ctahome .ctapage2 {
+    order: 1;
+  }
+}

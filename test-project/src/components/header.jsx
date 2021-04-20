@@ -1,14 +1,14 @@
 import React from "react"
-import "../css/header.css"
+import * as Head from "../css/header.module.css"
 
 const Header = () => {
   return (
-    <header class="page-header">
+    <header className={Head.pageHeader}>
       <nav>
-        <a href="./" class="cta-home">
+        <a href="/" className={Head.ctahome}>
           Home
         </a>
-        <a href="page2" class="cta-page2">
+        <a href="/page2" class={Head.ctapage2}>
           Page 2
         </a>
       </nav>

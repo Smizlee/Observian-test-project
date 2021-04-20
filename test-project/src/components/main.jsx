@@ -1,21 +1,19 @@
 import React from "react"
-import "../css/main.css"
+import * as M from "../css/main.module.css"
 import DarkRed from "../images/SVGDarkRed.svg"
 import BlackLine from "../images/SVGBlackLine.svg"
 import InfoCard from "./card"
 
 const Main = () => {
   return (
-    <div
-      style={{ alignItems: "center", display: "flex", flexDirection: "column" }}
-    >
-      <div className="main-container">
-        <div className="wrapper">
+    <div className={M.mainWrapper}>
+      <div className={M.mainContainer}>
+        <div className={M.wrapper}>
           <img src={DarkRed} alt="DarkRed" width="10%" height="auto" />
-          <text className="headerTitleText">NICK SAMPLE</text>
-          <img src={BlackLine} alt="BlackLine" className="blackLineImage" />
+          <text className={M.headerTitleText}>NICK SAMPLE</text>
+          <img src={BlackLine} alt="BlackLine" className={M.blackLineImage} />
           {/*<div className="underline" />*/}
-          <p className="bodyText">
+          <p className={M.bodyText}>
             One of the earliest activities we engaged in when we first got into
             astronomy is the same one we like to show our children just as soon
             as their excitement about the night sky begins to surface. That is
@@ -25,7 +23,7 @@ const Main = () => {
             that the more primitive of human societies could “see pictures” in
             the sky and ascribe to them significance.
           </p>
-          <p className="bodyText">
+          <p className={M.bodyText}>
             Constellations also have been important in culture and navigation
             long before we had sophisticated systems of navigation. Early
             explorers, particularly by sea, relied exclusively on the night sky
@@ -37,7 +35,7 @@ const Main = () => {
           </p>
         </div>
       </div>
-      <div style={{ marginTop: "50px" }}>
+      <div className={M.infoCardWrapper}>
         <InfoCard />
       </div>
     </div>
